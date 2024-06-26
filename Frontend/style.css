@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(to right, #222, #333); /* Dark background gradient */
+}
+
+.container {
+    background: #222; /* Dark container background */
+    max-width: 700px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center content vertically */
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+    color: #fff; /* White text color */
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.option {
+    font-size: 24px;
+    color: #fff; /* White text color */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.google a,
+.microsoft a {
+    display: inline-flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center; /* Center items horizontally */
+    height: 55px;
+    width: 120%;
+    margin-left: 100px;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 55px;
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.google i,
+.microsoft i {
+    margin-right: 20px; /* Add space between icon and text */
+}
+
+.google a {
+    background: #ea4335; /* Google red */
+    margin: 20px 0 15px 0;
+}
+
+.google a:hover {
+    background: #da564a; /* Darker shade of Google red */
+}
+
+.microsoft a {
+    background: #476bb8; /* Microsoft blue */
+    margin: 20px 0 50px 0;
+}
+
+.microsoft a:hover {
+    background: #3b5998; /* Darker shade of Microsoft blue */
+}
