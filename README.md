@@ -4,7 +4,7 @@
 
 The ReachInBox assignment aims to build a tool that parses and manages emails from Google and Outlook accounts, using AI to categorize and respond to emails based on their context. This server-based application is built with Node.js and Express, leveraging various APIs and AI services.
 
-![image](https://github.com/Tech-Spookezz/Reachinbox.AI/assets/114910171/b5c62444-ef41-459f-a2ee-d92682e70a9f)
+![image](https://github.com/Tech-Spookezz/ReachInbox.AI/assets/114910171/442c1ba3-a942-452f-b220-c34fd465f458)
 
 
 ## Technologies Used
